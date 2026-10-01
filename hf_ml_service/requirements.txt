@@ -1,0 +1,4 @@
+gradio
+spaces
+sentence-transformers
+torch

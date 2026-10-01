@@ -1,0 +1,158 @@
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ============================================================
+# Environment & Secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+# Secrets / credentials
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
+
+# ============================================================
+# Jupyter Notebook
+# ============================================================
+
+.ipynb_checkpoints/
+
+# ============================================================
+# ML / Model Artifacts
+# ============================================================
+
+# Local model files
+models2/
+
+# Large ML checkpoints
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+*.onnx
+
+# TensorBoard
+runs/
+tensorboard/
+logs/
+
+# ============================================================
+# Hugging Face / Transformers
+# ============================================================
+
+# Local Hugging Face cache
+.huggingface/
+huggingface/
+transformers_cache/
+
+# Hugging Face Spaces runtime/cache
+.cache/
+.space/
+
+# ============================================================
+# FastAPI / Backend
+# ============================================================
+
+*.sqlite
+*.sqlite3
+*.db
+
+# Uploaded/generated resume files
+uploads/
+uploaded_files/
+temp/
+tmp/
+
+# Generated reports
+reports/
+generated_reports/
+
+# ============================================================
+# Streamlit
+# ============================================================
+
+.streamlit/secrets.toml
+.streamlit/cache/
+
+# ============================================================
+# Frontend / Node (if added later)
+# ============================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ============================================================
+# IDE / Editors
+# ============================================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================================
+# OS Generated Files
+# ============================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Testing / Coverage
+# ============================================================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# ============================================================
+# Local Development Files
+# ============================================================
+
+*.log
+*.tmp
+*.bak
+
+# ============================================================
+# Deployment / Build Cache
+# ============================================================
+
+.vercel/
+.render/
