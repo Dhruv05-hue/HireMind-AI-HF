@@ -450,7 +450,7 @@ For local development, use `.env` and keep it inside `.gitignore`.
 ## 1. Clone the repository
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone https://github.com/Dhruv05-hue/HireMind-AI-HF.git
 cd AI_ATS_HF_ML_Service
 ```
 
